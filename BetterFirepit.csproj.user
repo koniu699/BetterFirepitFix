@@ -6,4 +6,7 @@
     <StartAction>Project</StartAction>
     <StartWorkingDirectory />
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
 </Project>
