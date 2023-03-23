@@ -66,61 +66,22 @@
       <HintPath>F:\Games\Vintagestory\VintagestoryLib.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="VSCreativeMod">
-      <HintPath>F:\Games\Vintagestory\Mods\VSCreativeMod.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="VSEssentials">
-      <HintPath>F:\Games\Vintagestory\Mods\VSEssentials.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
     <Reference Include="0Harmony">
       <HintPath>F:\Games\Vintagestory\Lib\0Harmony.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="AnimatedGif">
-      <HintPath>F:\Games\Vintagestory\Lib\AnimatedGif.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="cairo-sharp">
-      <HintPath>F:\Games\Vintagestory\Lib\cairo-sharp.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="OpenTK">
-      <HintPath>F:\Games\Vintagestory\Lib\OpenTK.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>F:\Games\Vintagestory\Lib\protobuf-net.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="System.Data.SQLite">
-      <HintPath>F:\Games\Vintagestory\Lib\System.Data.SQLite.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="Tavis.JsonPatch">
-      <HintPath>F:\Games\Vintagestory\Lib\Tavis.JsonPatch.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="Icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="LICENSE" />
     <None Include="modinfo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="PublishOutput\BetterFirepit.zip" />
-    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

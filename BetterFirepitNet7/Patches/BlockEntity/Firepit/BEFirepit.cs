@@ -1,10 +1,8 @@
 ﻿using HarmonyLib;
-using System;
-using Vintagestory.API.Common;
 using Vintagestory.GameContent;
 
 
-namespace BetterFirepit.Patches.BlockEntity.Firepit
+namespace BetterFirepitNet7.Patches.BlockEntity.Firepit
 {
     [HarmonyPatch(typeof(BlockEntityFirepit), nameof(BlockEntityFirepit.smeltItems))]
     public class BEFirepitSmeltItemsPatch
