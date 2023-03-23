@@ -62,10 +62,6 @@
       <HintPath>F:\Games\Vintagestory\VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="VintagestoryLib">
-      <HintPath>F:\Games\Vintagestory\VintagestoryLib.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
     <Reference Include="0Harmony">
       <HintPath>F:\Games\Vintagestory\Lib\0Harmony.dll</HintPath>
       <Private>false</Private>

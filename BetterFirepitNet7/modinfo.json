@@ -6,6 +6,6 @@
   "description": "A Vintage Story mod to improve the firepit's behaviour",
   "version": "1.0.0",
   "dependencies": {
-    "game": "1.17.11",
+    "game": "1.17.11-rc.3"
   }
 }
