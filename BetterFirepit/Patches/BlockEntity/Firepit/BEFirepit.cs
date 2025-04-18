@@ -1,4 +1,5 @@
-﻿using Vintagestory.GameContent;
+﻿using Vintagestory.API.Common;
+using Vintagestory.GameContent;
 
 namespace BetterFirepit.Patches.BlockEntity.Firepit
 {
@@ -8,9 +9,16 @@ namespace BetterFirepit.Patches.BlockEntity.Firepit
         {
             __state = __instance.InputStackTemp;
         }
+
         public static void Postfix(BlockEntityFirepit __instance, float __state)
         {
-            __instance.InputStackTemp = __state;
+            if (__instance.fuelStack is { Item: not null })
+            {
+                if (__instance.fuelStack.Item.CombustibleProps?.BurnTemperature < __state)
+                    __instance.InputStackTemp = __instance.fuelStack.Item.CombustibleProps.BurnTemperature;
+                else
+                    __instance.InputStackTemp = __state;
+            }
         }
     }
 }
