@@ -4,3 +4,6 @@ BetterFirepit/obj/
 BetterFirepitNet7/bin/
 BetterFirepitNet7/obj/
 PublishOutput/
+.idea
+bin/
+obj/
